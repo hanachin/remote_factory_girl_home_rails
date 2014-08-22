@@ -6,6 +6,7 @@ class FactoryGirl
   end
 
   def self.factories
+    require 'ostruct'
     [
       OpenStruct.new('name' => 'Sam'),
       OpenStruct.new('name' => 'Pete')
@@ -56,4 +57,3 @@ describe RemoteFactoryGirlHomeRails::HomeController do
     end
   end
 end
-

@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'ostruct'
 
 class FactoryGirl
   def self.create(factory, opts = {})
@@ -6,7 +7,6 @@ class FactoryGirl
   end
 
   def self.factories
-    require 'ostruct'
     [
       OpenStruct.new('name' => 'Sam'),
       OpenStruct.new('name' => 'Pete')

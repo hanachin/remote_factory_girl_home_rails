@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'ostruct'
 
 describe RemoteFactoryGirlHomeRails::HomeController do
 
@@ -33,4 +34,3 @@ describe RemoteFactoryGirlHomeRails::HomeController do
     end
   end
 end
-
